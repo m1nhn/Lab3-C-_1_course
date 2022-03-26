@@ -4,6 +4,6 @@ using namespace std;
 
 int main() {
     Menu settings;
-    Menu::select(settings);
+    settings.select();
     return 0;
 }
