@@ -15,7 +15,7 @@ Menu::Menu() {
     cin >> Number;
 }
 
-void Menu::select(Menu settings) {
+void Menu::select() {
 
     //2
     Square s1,s2;
@@ -30,7 +30,7 @@ void Menu::select(Menu settings) {
     Stack st1;
     int pop_number;
 
-    switch(settings.Number){
+    switch(Number){
 
         case 1:
             cout << "Введите сторону первого квадрата\n";
