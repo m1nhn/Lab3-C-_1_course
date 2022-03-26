@@ -6,10 +6,10 @@
 using namespace std;
 
 class Menu{
-        private:
+private:
         int Number;
-        public:
+public:
         Menu();
-        static void select(Menu settings);
+        void select();
 };
 #endif //LAB3_MENU_H
